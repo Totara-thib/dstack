@@ -6,7 +6,7 @@ name: TDX lite verifier wasm
 
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     tags: ['verifier-wasm-v*']
   pull_request:
     types: [opened, synchronize, reopened, labeled, unlabeled]

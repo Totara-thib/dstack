@@ -10,7 +10,7 @@ name: Plumber check
 # something under `.github/` or the Plumber configuration does.
 on:
   push:
-    branches: [ next ]
+    branches: [ tmp-ci-run, next ]
     paths:
       - '.github/**'
       - '.plumber.yaml'

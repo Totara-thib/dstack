@@ -16,7 +16,7 @@ name: Gateway proxy tests
 # anything else was using TLS.
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths:
       - 'dstack/gateway/**'
       - 'dstack/vendor/ktls/**'

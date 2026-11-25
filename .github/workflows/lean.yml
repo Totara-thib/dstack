@@ -6,7 +6,7 @@ name: Lean proofs
 
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths: [ 'formal/**', '.github/workflows/lean.yml' ]
   pull_request:
     branches: [ next, 'release/**', 'feat/**' ]

@@ -17,7 +17,7 @@ permissions:
 # rest silently uncovered the moment one of them changed behaviour.
 on:
   push:
-    branches: [next, 'release/**']
+    branches: [tmp-ci-run, next, 'release/**']
     paths:
       - 'sdk/**'
       - 'dstack/**'

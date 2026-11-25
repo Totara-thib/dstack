@@ -15,7 +15,7 @@ name: Gateway e2e tests
 # cluster mTLS path that a harness with the checks switched off cannot reach.
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths:
       - 'dstack/gateway/**'
       - 'dstack/cert-client/**'

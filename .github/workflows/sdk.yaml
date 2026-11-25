@@ -9,7 +9,7 @@ permissions:
 
 on:
   push:
-    branches: [next, 'release/**']
+    branches: [tmp-ci-run, next, 'release/**']
   pull_request:
     branches: [next, 'release/**', 'feat/**']
 

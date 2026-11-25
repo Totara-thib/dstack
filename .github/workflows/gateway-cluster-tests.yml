@@ -14,7 +14,7 @@ name: Gateway cluster tests
 # this replaces could not do.
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths:
       - 'dstack/gateway/**'
       - 'dstack/cert-client/**'

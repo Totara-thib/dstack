@@ -11,7 +11,7 @@ permissions:
 # status check, so a workflow-level filter is safe.
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths:
       - 'dstack/vmm/ui/**'
       - 'dstack/vmm/src/vmm-cli.py'

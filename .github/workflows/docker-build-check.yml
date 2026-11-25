@@ -11,7 +11,7 @@ name: Docker Build Check
 # does.
 on:
   push:
-    branches: [ next, 'release/**' ]
+    branches: [ tmp-ci-run, next, 'release/**' ]
     paths:
       - 'dstack/**'
       - 'rust-toolchain.toml'
